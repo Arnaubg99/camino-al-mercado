@@ -1,0 +1,308 @@
+#body{
+   background-image: url("../images/barcelona_mercat_principal.jpg");    
+   background-size: cover;
+   filter: alpha(opacity=50);
+}
+.navbar{
+    height: 3vw;
+    animation-duration: 2s;
+}
+.main_navbar{
+    border-bottom: solid 2px #2196f3;
+}
+.container{
+    margin-top: 4%;
+}
+#leyenda{
+    padding-top: 5px;
+    background-image:url("../images/fonsblanc.png");
+    width: 280px;
+    height: 340px;
+    top:0px;
+    left: 720px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+#flechasLeyenda{
+    background-image: url("../images/flechas.png");
+    background-size: cover;
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+#flechasTexto{
+    width: 140px;
+    height: 70px;
+    font-size: 10px;
+    font-family: '8-bit';
+    margin-left: 5px;
+    text-align: center;
+    font-size: 8px;
+    padding-top: 35px;
+    float: left;
+}
+#corazonLeyenda{
+    background-image: url("../images/corazon.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#corazonTexto{
+    width: 140px;
+    height: 70px;
+    font-size: 10px;
+    font-family: '8-bit';
+    margin-left: 10px;
+    text-align: center;
+    font-size: 8px;
+    padding-top: 35px;
+    float: left;
+}
+#escudoLeyenda{
+    background-image: url("../images/escudo.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#escudoTexto{
+    width: 140px;
+    height: 70px;
+    font-size: 10px;
+    font-family: '8-bit';
+    margin-left: 5px;
+    text-align: center;
+    font-size: 8px;
+    padding-top: 30px;
+    float: left;
+}
+#cocheLeyenda{
+    background-image: url("../images/coches/cocheNaranja.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#cocheTexto{
+    width: 140px;
+    height: 70px;
+    font-size: 10px;
+    font-family: '8-bit';
+    margin-left: 10px;
+    text-align: center;
+    font-size: 8px;
+    padding-top: 30px;
+    float: left;
+}
+#camionLeyenda{
+    background-image: url("../images/coches/camio.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#camionTexto{
+    width: 140px;
+    height: 70px;
+    font-size: 10px;
+    font-family: '8-bit';
+    margin-left: 5px;
+    text-align: center;
+    font-size: 8px;
+    padding-top: 30px;
+    float: left;
+}
+#botonMensaje{
+    width: 250px;
+    height: 35px;
+    top: 350px;
+    left: 15px;
+    margin: auto; 
+    text-align: center;
+    position: absolute;
+    font-family: '8-bit';
+    font-size: 8px;
+    border-radius: 5%;
+}
+#principal{
+    background-image: url("../images/carretera_background.png");
+    background-size: cover;
+    width: 700px;
+    height: 450px;
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+#camion{
+    background-image: url("../images/coches/camio.png");
+    width: 65px;
+    height: 50px;    
+    background-size: cover;
+    top: 175px;
+    left: 510px;
+    position: absolute;
+}
+.bloque{
+    visibility: hidden;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    background-size: cover;
+}
+#contador{
+    background-color:whitesmoke;
+    width: 160px;
+    margin: auto;
+    text-align: center;
+    height: 35px;
+    top: 0px;
+    left: 0px;
+    font-size: 10px;
+    font-family: '8-bit';
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#bloque1{
+    background-image: url("../images/coches/cocheNaranja.png");
+    top: 100px;
+    left: 0px;
+}
+#bloque2{
+    background-image: url("../images/coches/cocheVerde.png");
+    top: 175px;
+    left: 0px;
+}
+#bloque3{
+    background-image: url("../images/coches/cocheRojo.png");
+    top: 250px;
+    left: 0px;
+}
+.row{
+    width: 100%;
+}
+#botonInicio{
+    visibility: visible;
+    width: 220px;
+    height: 40px;
+    top: 200px;
+    left: 250px;
+    margin: auto; 
+    text-align: center;
+    position: absolute;
+    font-family: '8-bit';
+    border-radius: 5%;
+}
+#botonReinicio{
+    visibility: hidden;
+    width: 220px;
+    height: 40px;
+    top: 200px;
+    left: 250px;
+    margin: auto; 
+    text-align: center;
+    position: absolute;
+    font-family: '8-bit';
+    border-radius: 5%;
+}
+#cuentaAtras{
+    visibility: hidden;
+    background-color: whitesmoke;
+    width: 60px;
+    height: 30px;
+    top: 200px;
+    left: 320px;
+    margin: auto; 
+    text-align: center;
+    position: absolute;
+    font-family: '8-bit';
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.indicadorVidas{
+    position: absolute;
+    background-image: url("../images/corazonAnimacion.gif");
+    background-size: cover;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+}
+#indicadorVidas1{
+    left: 10px;
+}
+#indicadorVidas2{
+    left: 55px;
+}
+#indicadorVidas3{
+    left: 100px;
+}
+#indicadorEscudo{
+    position: absolute;
+    background-image: url("../images/escudo.png");
+    visibility: hidden;
+    background-size: cover;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    left: 145px;
+}
+#vidas{
+    position: absolute;
+    background-image: url("../images/corazon.png");
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    visibility: hidden;
+    top: 175px;
+    left: -60px;
+}
+#escudo{
+    position: absolute;
+    background-image: url("../images/escudo.png");
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    visibility: hidden;
+    top: 175px;
+    left: -60px;
+}
+#meta{
+    position: absolute;
+    background-image: url("../images/meta.png");
+    background-size: cover;
+    width: 70px;
+    height: 275px;
+    visibility: hidden;
+    top: 95px;
+    left: 700px;
+}
+#boom{
+    visibility: hidden;
+    width: 65px;
+    height: 50px;    
+    position: absolute;
+    background-image: url("../images/boom.png");
+    background-size: cover;
+    top: 0px;
+    left: 635px;
+}
+@font-face {
+    font-family: '8-bit';
+       src: url('8-bit/8-bit-hud.eot');
+       src: url('8-bit/8-bit-hud.eot') format('embedded-opentype'),
+            url('8-bit/8-bit-hud.woff') format('woff'),
+            url('8-bit/8-bit-hud.ttf') format('truetype'),
+            url('8-bit/8-bit-hud.svg') format('svg');
+      font-weight: unset;
+      font-style: unset;
+    }
